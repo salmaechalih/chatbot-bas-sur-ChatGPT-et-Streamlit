@@ -5,13 +5,13 @@ Ce projet montre comment construire une application chatbot en Python, avec une 
 L'objectif est d'explorer les fonctionnalités des LLM (Large Language Models) à travers des versions évolutives de l’application, en suivant un processus professionnel avec Git (branches, workflow, fusion, etc.).
 
 ### 🚀 Fonctionnalités
-Affichage des échanges sous forme de messages (utilisateur & assistant)
+-Affichage des échanges sous forme de messages (utilisateur & assistant)
 
-Sélection dynamique du modèle GPT via un selectbox
+-Sélection dynamique du modèle GPT via un selectbox
 
-Contrôle du nombre de jetons générés via un slider
+-Contrôle du nombre de jetons générés via un slider
 
-Utilisation de l’API OpenAI avec clé sécurisée via secrets.toml
+-Utilisation de l’API OpenAI avec clé sécurisée via secrets.toml
 
 ### 🔧 Installation
 # 1.Cloner le projet
@@ -32,10 +32,10 @@ OPENAI_API_KEY = "votre_clé_api"
 ### 1.gitignore
 Assurez-vous que les éléments suivants sont ignorés dans Git :
 
-# Environnement virtuel
+### 2.Environnement virtuel
 stenv/
 
-# Dossier de configuration Streamlit
+### 3.Dossier de configuration Streamlit
 .streamlit/
 .streamlit/secrets.toml
 
