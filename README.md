@@ -23,10 +23,11 @@ cd streamlitbot
 python -m venv stenv
 stenv\Scripts\activate 
 
-3.Installer les dépendances
+### 3.Installer les dépendances
 pip install -r requirements.txt
-4.Ajouter votre clé API OpenAI Dans .streamlit/secrets.toml :
+### 4.Ajouter votre clé API OpenAI Dans .streamlit/secrets.toml :
 OPENAI_API_KEY = "votre_clé_api"
+
 🧾 Fichier .gitignore
 Assurez-vous que les éléments suivants sont ignorés dans Git :
 
