@@ -38,7 +38,6 @@ stenv/
 ### 3.Dossier de configuration Streamlit
 .streamlit/
 .streamlit/secrets.toml
-
 ### 📌 Commandes Git utiles
 
 1.Vérifier l’état du dépôt
@@ -50,13 +49,13 @@ git add .
 3.Valider les modifications
 git commit -m "Message du commit"
 
-4. Pousser vers la branche distante
+4.Pousser vers la branche distante
 git push origin <nom-de-la-branche>
 
-5. Créer une nouvelle branche
+5.Créer une nouvelle branche
 git checkout -b versionX
 
-6. Fusionner avec la branche main
+6.Fusionner avec la branche main
 git checkout main
 git merge versionX
 
