@@ -14,12 +14,12 @@ Contrôle du nombre de jetons générés via un slider
 Utilisation de l’API OpenAI avec clé sécurisée via secrets.toml
 
 🔧 Installation
-1.Cloner le projet
+### 1.Cloner le projet
 
 git clone https://github.com/<ton-utilisateur>/streamlitbot.git
 cd streamlitbot
 
-2.Créer un environnement virtuel
+### 2.Créer un environnement virtuel
 python -m venv stenv
 stenv\Scripts\activate 
 
