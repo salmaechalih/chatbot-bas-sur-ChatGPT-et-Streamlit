@@ -14,18 +14,18 @@ Contrôle du nombre de jetons générés via un slider
 Utilisation de l’API OpenAI avec clé sécurisée via secrets.toml
 
 ### 🔧 Installation
-### 1.Cloner le projet
+# 1.Cloner le projet
 
 git clone https://github.com/<ton-utilisateur>/streamlitbot.git
 cd streamlitbot
 
-### 2.Créer un environnement virtuel
+# 2.Créer un environnement virtuel
 python -m venv stenv
 stenv\Scripts\activate 
 
-### 3.Installer les dépendances
+# 3.Installer les dépendances
 pip install -r requirements.txt
-### 4.Ajouter votre clé API OpenAI Dans .streamlit/secrets.toml :
+# 4.Ajouter votre clé API OpenAI Dans .streamlit/secrets.toml :
 OPENAI_API_KEY = "votre_clé_api"
 
 ### 🧾 Fichier 
@@ -44,7 +44,7 @@ stenv/
 1.Vérifier l’état du dépôt
 git status
 
-2. Ajouter tous les fichiers modifiés
+2.Ajouter tous les fichiers modifiés
 git add .
 
 3.Valider les modifications
